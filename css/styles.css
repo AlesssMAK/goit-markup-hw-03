@@ -8,14 +8,50 @@ h1,
 h2,
 h3 {
     font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+
+p {
+    margin: 0;
 }
 
 ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 a {
     text-decoration: none;
+}
+
+img {
+    display: block;
+}
+
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container,
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.page-nav {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 40px;
+
 }
 
 .logo {
@@ -30,6 +66,11 @@ a {
 
 .logo-part {
     color:#2e2f42
+}
+
+.page-address {
+    display: flex;
+    align-items: center;
 }
 
 .page-nav-link {
