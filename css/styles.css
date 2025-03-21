@@ -84,7 +84,6 @@ img {
 .page-address {
     display: flex;
     gap: 40px;
-    padding: 24px 0
 }
 
 .page-nav-link {
@@ -112,6 +111,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#434455;
+    padding: 24px 0
     }
 
 .page-address-link:hover,
@@ -153,7 +153,7 @@ img {
     margin-right: auto;
     border-radius: 4px;
     display: block;
-    width-min: 169px;
+    min-width: 169px;
     height: 56px;
     border: none;
     cursor: pointer;
